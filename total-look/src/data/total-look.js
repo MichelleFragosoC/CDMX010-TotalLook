@@ -22,11 +22,11 @@ export default {
     },
     { 
       id: '3',
-      name: 'Vestido floral',
+      name: 'Jumpsuit floral',
       color: 'Rosa, Amarillo, Verde y Blanco',
-      img: 'https://img.ltwebstatic.com/images3_pi/2020/07/21/15953201599cf8478831f803600d9093500bcb8efd_thumbnail_600x.webp',
+      img: 'https://relojesdemayoreo.com/wp-content/uploads/2020/11/C755-jumper-floreado-corto-nudo-en-busto-a-la-moda-mayoreo-ropa-1.jpg',
       price: '$380 MXN',
-      description: 'Vestido floral con fruncido de hombros descubiertos',
+      description: 'Jumpsuit con moño frontal',
       tallas: 'CH, M, G, EG',
       type: 'clothes'
     },
