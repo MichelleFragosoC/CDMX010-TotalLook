@@ -1,11 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faSearch} from '@fortawesome/free-solid-svg-icons';
 import './Searcher.css';
 
 const Searcher =()=>{
 
-    // const [search,setSearch]= useState([]);
     const initialStateValues = {
         busqueda: '',
     };
@@ -17,11 +16,6 @@ const Searcher =()=>{
         setValues({...values, [name]: value})
         console.log(setValues.name);
     };
-
-    // onChange=async e =>{
-    //     await this.setValues({busqueda: e.target.value});
-
-    // }
 
     return(
         <div className='searcher'>
