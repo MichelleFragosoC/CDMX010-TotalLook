@@ -32,7 +32,6 @@ const Principal = () => {
                     <img src={promotionsOne} className="promotionsOne" alt="promotionsOne" />
                     <a className="arrow arrow-next" href="#item-2"></a>
                 </div>
-
                 <div className="carousel-item item-2">
                     <a className="arrow arrow-prev" href="#item-1"></a>
                     <img src={promotionsTwo} className="promotionsTwo" alt="promotionsTwo" />
