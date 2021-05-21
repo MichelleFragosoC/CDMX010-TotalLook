@@ -1,8 +1,8 @@
 import React, {useState, useEffect}from 'react'
-import Promotion from './Promotion.js'
-import './Promotions.css'
+import Product from './Product.js'
 
-function Promotions() {
+
+function Products() {
 
     const [products, setProducts] = useState([]);
 
@@ -21,7 +21,7 @@ function Promotions() {
         <>
             <div>
             {products.map((p) => (
-                <Promotion p={p}/>
+                <Product p={p}/>
             ))}
             </div>
         </>
@@ -29,4 +29,4 @@ function Promotions() {
     
 }
 
-export default Promotions;
+export default Products;

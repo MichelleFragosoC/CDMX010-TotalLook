@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Product(props) {
+function Promotion(props) {
     return(
         <>
-            <div clasName="containerProduct">
+            <div className="containerPromotion">
                 <img className="cartProduct" src={props.p.img} alt="bolsa"/>
                 <div clasName="cartInfo">
                     <p>{props.p.name}</p>
@@ -14,4 +14,4 @@ function Product(props) {
     );   
 }
 
-export default Product;
+export default Promotion;
