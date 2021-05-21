@@ -1,0 +1,29 @@
+.myModal{
+    background-color: white;
+    width: 900px;
+    height: 505px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: sticky;
+    box-shadow: 7px 6px 9px 4px;
+}
+
+.modalContent{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 1s;
+    height: 100%;
+}
+
+.close{
+    width: 20%;
+    border-radius: 20px 20px;
+    background-color: #BE9DDF;
+    border: solid #9579D1;
+    margin-top: 7px
+}

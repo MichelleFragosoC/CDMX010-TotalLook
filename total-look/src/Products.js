@@ -1,6 +1,7 @@
-import React, {useState, useEffect}from 'react'
+import React, {useState, useEffect} from 'react'
+import Footer from './Components/Footer/Footer.js';
+import Navbar from './Components/Navbar/Navbar.js';
 import Product from './Product.js'
-
 
 function Products() {
 
@@ -16,17 +17,17 @@ function Products() {
         setProducts(products);
     }
 
-
     return(
         <>
             <div>
-            {products.map((p) => (
-                <Product p={p}/>
-            ))}
+                <Navbar/>
+                {products.map((p) => (
+                    <Product p={p}/>
+                ))}
+                <Footer/>
             </div>
         </>
     );
-    
 }
 
 export default Products;
